@@ -1,0 +1,11 @@
+name: zabbix
+
+http:
+  - method: GET
+    path:
+      - /zabbix
+    matchers:
+      - type: word
+        part: title
+        word:
+          - 'zabbix: Zabbix'

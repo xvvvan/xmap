@@ -1,0 +1,12 @@
+name: dahua_camera
+
+http:
+  - method: GET
+    path:
+      - /image/lgbg.jpg
+    matchers:
+      - type: word
+        name: dahua
+        part: md5body
+        word:
+          - 4ff53be6165e430af41d782e00207fda

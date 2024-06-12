@@ -1,0 +1,13 @@
+name: xxl_job
+
+http:
+  - method: GET
+    path:
+      - /xxl-job-admin/toLogin
+    matchers:
+      - type: word
+        name: xxl-job
+        condition: or
+        word:
+          - 分布式任务调度平台XXL-JOB
+          - <a><b>XXL</b>JOB</a>

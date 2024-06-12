@@ -1,0 +1,46 @@
+name: weblogic
+
+http:
+  - method: GET
+    path:
+      - /console/login/LoginForm.jsp
+    matchers:
+      - type: word
+        name: weblogic
+        word:
+          - WebLogic
+
+      - type: word
+        name: weblogic
+        word:
+          - Hypertext Transfer Protocol
+
+      - type: word
+        name: weblogic
+        word:
+          - <i>Hypertext Transfer Protocol -- HTTP/1.1</i>
+
+      - type: word
+        name: weblogic
+        word:
+          - /console/framework/skins/wlsconsole/images/login_WebLogic_branding.png
+
+      - type: word
+        name: weblogic
+        word:
+          - Welcome to Weblogic Application Server
+
+      - type: word
+        name: weblogic
+        word:
+          - Error 403--
+
+      - type: word
+        name: weblogic
+        word:
+          - Error 404--Not Found
+
+      - type: word
+        name: weblogic
+        word:
+          - Oracle WebLogic Server

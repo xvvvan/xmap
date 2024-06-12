@@ -1,0 +1,6 @@
+[
+{"cms": "WebLogic", "path": "/wls-wsat/CoordinatorPortType", "method": "keyword", "keyword": "CoordinatorPortType?wsdl"},
+{"cms": "WebLogic", "path": "/_async/AsyncResponseService", "method": "keyword", "keyword": "AsyncResponseService?WSDL"},
+{"cms": "WebLogic", "path": "/console/", "method": "keyword", "keyword": "Oracle WebLogic Server"},
+{"cms": "Kubernetes Operational View Detect", "path": "", "method": "keyword", "keyword": "<title>Kubernetes Operational View"}
+]

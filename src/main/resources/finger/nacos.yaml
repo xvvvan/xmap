@@ -1,0 +1,26 @@
+name: nacos
+
+http:
+  - method: GET
+    path:
+      - /nacos
+    matchers:
+      - type: word
+        name: nacos
+        word:
+          - <title>Nacos</title>
+
+  - method: GET
+    path:
+      - /v1/console/server/state?accessToken=&username=
+      - /nacos/v1/console/server/state?accessToken=&username=
+    matchers:
+      - type: word
+        name: nacos
+        condition: and
+        word:
+          - version
+          - standalone_mode
+
+
+
